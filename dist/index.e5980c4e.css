@@ -1,0 +1,152 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+div {
+  letter-spacing: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, nav, span, section, ul, li, input, form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  max-width: 320px;
+  max-height: 533px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.chat__wrapper {
+  max-width: 304px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.menu {
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.button {
+  cursor: pointer;
+  background: none;
+  border: 2px solid #000;
+  padding: 2px 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.chatBlock {
+  height: 437px;
+  scrollbar-width: none;
+  border: 2px solid #000;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  overflow: auto;
+}
+
+.chatBlock::-webkit-scrollbar {
+  width: 0;
+}
+
+.message {
+  background-color: #f6f6f6;
+  margin: 5px;
+  padding: 7px;
+  font-size: 16px;
+  display: table;
+}
+
+.my__message {
+  margin-left: auto;
+}
+
+.message__readed {
+  background-color: #e5e5e5;
+}
+
+.send__time {
+  text-align: right;
+  font-style: italic;
+}
+
+.form {
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.message__input {
+  width: 100%;
+  border: 2px solid #000;
+  margin-right: 4px;
+  padding: 4px;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vh;
+  background-color: #535353;
+  transition: all 5s ease-in;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.modal img {
+  max-width: 100%;
+  position: relative;
+  top: 24%;
+}
+
+.displayModal {
+  transition: all 5s ease-in;
+  display: block;
+}
+
+.settings__window {
+  width: 273px;
+  height: 319px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  top: 20%;
+}
+
+.settings__text {
+  font-size: 16px;
+}
+
+.close__button {
+  border: none;
+}
+
+.input__title {
+  margin-top: 25%;
+}
+
+.preloader {
+  height: 50px;
+  margin-left: 35%;
+  display: none;
+}
+
+.display__preloader {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.e5980c4e.css.map */

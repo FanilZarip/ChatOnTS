@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.e5980c4e.css">
+    <title>Chat App</title>
+</head>
+<body>
+    
+    <section class="container">
+        <div class="chat__wrapper">
+            <div class="menu d-flex">
+                <button class="button settings">
+                    Настройки
+                </button>
+                <button class="button log__out">
+                    Выйти
+                </button>
+            </div>
+            <div class="chatBlock">
+                <p class="message__info"></p>
+                <ul class="message__list">
+                    <template class="chat_template">
+                        <li class="message">
+                            <span class="my__name name sender">Я:</span>
+                            <span class="template_message__text">
+                                Добрый день!
+                            </span>
+                            <p class="send__time">18:45</p>
+                        </li>
+                    </template>
+                </ul>
+                
+            </div>
+            <div class="new_message__form">
+                <form action="" class="message__form d-flex">
+                    <input type="text" class="message__input" placeholder="Сообщение...">
+                    <input type="submit" value="->" class="button">
+                </form>
+            </div>
+        </div>
+        <div class="modal settings__modal container">
+            <div class="settings__window">
+                <div class="menu d-flex">
+                    <p class="settings__text">
+                        Настройки
+                    </p>
+                    <button class="button close__button close__settings">
+                        X
+                    </button>
+                </div>
+                <p class="user__text">
+                    Имя в чате
+                </p>
+                <div class="form">
+                    <form action="" class="message__form settings__form d-flex">
+                        <input type="text" class="message__input settings__input" placeholder="Имя">
+                        <input type="submit" value="->" class="button">
+                    </form>
+                </div>
+                <img src="/prloader.97319ae9.gif" alt="prloader" class="preloader">
+            </div>
+        </div>
+        <div class="modal approve__modal displayModal container">
+            <div class="settings__window">
+                <div class="menu d-flex">
+                    <p class="settings__text">
+                        Подтверждение
+                    </p>
+                    <button class="button close__button close__approve">
+                        X
+                    </button>
+                </div>
+                <p class="user__text input__title approve__inptut__title">
+                    Код
+                </p>
+                <div class="form">
+                    <form action="" class="approve__form d-flex">
+                        <input type="text" class="message__input approve__input" placeholder="Введите почту">
+                        <input type="submit" value="->" class="button approve__button">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal authorization__modal displayModal container">
+            <div class="settings__window">
+                <div class="menu d-flex">
+                    <p class="settings__text">
+                        Авторизация
+                    </p>
+                    <button class="button close__button close__authorization">
+                        X
+                    </button>
+                </div>
+                <p class="user__text input__title authorization__input__title">
+                    Почта
+                </p>
+                <div class="form">
+                    <form action="" class="authorization__form d-flex">
+                        <input type="email" class="message__input authorization__input" placeholder="Введите почту">
+                        <input type="submit" value="->" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="data__load__modal modal displayModal container">
+            <img src="/prloader.97319ae9.gif" alt="prloader" class="">
+        </div>
+    </section>
+
+    <script src="/index.ea2fdf7e.js" defer=""></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+div {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	letter-spacing: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+nav,
+span,
+section,
+ul,
+li,
+input,
+form {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    margin: auto;
+	max-width: 320px;
+    max-height: 533px;
+    background-color: #fff;
+}
+
+/* .container{
+    width: 364px;
+    height: 582px;
+} */
+
+.d-flex {
+    display: flex;
+}
+
+.chat__wrapper {
+    max-width: 304px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.menu {
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.button {
+    background: none;
+    border: solid 2px black;
+    
+    font-size: 16px;
+    font-weight: 400;
+    
+    padding: 2px 5px;
+
+    cursor: pointer;
+}
+
+.chatBlock {
+    overflow: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    border: solid 2px black;
+    height: 437px;
+    scrollbar-width: none;
+}
+
+.chatBlock::-webkit-scrollbar {
+    width: 0;
+}
+
+.message {
+    padding: 7px;
+    display: table;
+    background-color: #F6F6F6;
+    margin: 5px;
+
+    font-size: 16px;
+}
+
+.my__message {
+    margin-left: auto;
+}
+
+.message__readed {
+    background-color: #E5E5E5;
+}
+
+.send__time {
+    text-align: right;
+    font-style: italic;
+}
+
+.form {
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.message__input {
+    border: solid 2px black;
+    width: 100%;
+    margin-right: 4px;
+    padding: 4px;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vh;
+    background-color: #535353;
+    display: none;
+    transition: 5s;
+    transition-timing-function: ease-in;
+}
+
+.modal img {
+    top: 24%;
+    max-width: 100%;
+    position: relative;
+}
+
+.displayModal {
+    display: block;
+    transition: 5s;
+    transition-timing-function: ease-in;
+}
+
+.settings__window {
+    top: 20%;
+    width: 273px;
+    height: 319px;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    background-color: #fff;
+}
+
+.settings__text {
+    font-size: 16px;
+}
+
+.close__button {
+    border: none;
+}
+
+.input__title {
+    margin-top: 25%;
+}
+
+.preloader {
+    height: 50px;
+    margin-left: 35%;
+    display: none;
+}
+
+.display__preloader {
+    display: flex;
+}
